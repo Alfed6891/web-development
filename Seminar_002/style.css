@@ -1,0 +1,116 @@
+* {
+margin: 0;
+padding: 0%;
+}
+body {
+	background-color: #ecffbd;
+}
+.title {
+	color: rgb(3, 93, 0);
+	text-align: center;
+	font-size: 25px;
+}
+.header {
+	width: 100%;
+	text-align: center;
+	background-color: beige;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	outline: 1px solid transparent;
+}
+
+.nav {
+	margin-top: 30px;
+}
+
+.nav-link {
+	width: 100px;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	background-color: chartreuse;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid transparent;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-link:hover {
+	background-color: rgb(225, 255, 0);
+	border: 1px solid black;
+	color: black;
+}
+
+.item-sec {
+	margin-top: 40px;
+}
+.item {
+	background-color: rgb(255, 255, 255);
+	display: block;
+	width: 320px;
+	height: auto;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.item-card {
+	background-color: rgb(255, 255, 255);
+	display: block;
+	width: 500px;
+	height: auto;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+.item-pic {
+	width: 320px;
+	height: 200px;
+}
+
+.item-pic-card {
+	width: 500px;
+	height: 400px;
+}
+
+
+.txt-box {
+	padding: 10px;
+}
+
+.txt-desc {
+	text-align: center;
+	color: darkgreen;
+	font-size: 20px;
+	text-transform: unset;
+}
+
+.item-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.item:hover .txt-box {
+	background-color: rgb(225, 255, 0);
+}
+
+.item:hover .txt-desc {
+	color: black;
+}
+
+.txt_information {
+	margin-top: 10px;
+	color: black;
+	font-size: 20px;
+}
